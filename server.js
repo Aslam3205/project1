@@ -1103,5 +1103,5 @@ io.on('connection', socket => {
   });
 });
 
-const PORT = process.env.PORT||3001;
+const PORT = process.env.PORT||3000;
 server.listen(PORT,()=>console.log(`\n🃏 Ace Spades v2.0 on port ${PORT}\n   17 features active\n`));
